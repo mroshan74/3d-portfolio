@@ -25,7 +25,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className={`w-full h-full flex `}>
+        <ComputersCanvas />
+      </div>
 
       <div className='absolute bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
